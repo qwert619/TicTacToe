@@ -10,7 +10,7 @@ body{
 }
 
 #game-board {
-    display: grid;
+    display: grid; /* Initially hidden */
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
     gap: 5px;
@@ -51,4 +51,14 @@ body{
 html {
     margin: 0;
     padding: 0;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
+
+#icon-selection{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
